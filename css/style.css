@@ -54,7 +54,23 @@ header .hd-whol .content-box {
 
 }
 header .hd-whol .content-box h1 {
+    color: #fff7d5;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800;
+}
+header .hd-whol .content-box h1 a {
     color: #fff;
-    font-size: 24px;
-    
+    font-size: 14px;
+    border: 1px solid #848484;
+    padding: 5px 15px;
+    transition: all .2s ease;
+} 
+header .hd-whol .content-box h1 a:hover{
+    color: #ffe8ab;
+    font-size: 14px;
+    border: 1px solid #5c507e;
+    background-color: #42326f;
+    padding: 5px 15px;
+    transition: all .2s ease;
 }
