@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-style: normal;
+    font-size: 14px;
 }
 a {
     text-decoration: inherit;
@@ -85,7 +87,7 @@ header .hd-whol .content-box em {
     font-style: inherit;
     font-family: 'Black Han Sans', sans-serif;
 }
-#toggle-btn {
+#light-btn {
     background: #0a0a0a;
     width: 45px;
     height: 23px;
@@ -103,4 +105,54 @@ header .hd-whol .content-box em {
     background: #fff;
     border-radius: 50%;
     display: inline-block;
-  }
+}
+header nav {
+    width: 100%;
+    padding: 0 50px;
+    height: 75px;
+    line-height: 75px;
+}
+header nav .content-box {
+    display: flex;
+    justify-content: space-between;
+}
+.content-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+header nav .left em {
+    display: block;
+    font-weight: 300;
+}
+header nav .left em b {
+    color: #ffe8ab;
+}
+header nav .right {
+    display: flex;
+}
+header nav .right a {
+    padding-left: 20px;
+    transition: all ease .2s;
+    font-size: 14px;
+    color: #fff;
+}
+header nav .right a:hover {
+    text-decoration: underline;
+    color: #ffe8ab;
+    transform: translateY(5px);
+}
+header .flt-nav {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+header .flt-nav a {
+    display: block;
+    writing-mode: vertical-rl;
+    margin: 1.5rem;
+    font-size: .8rem;
+    color: var(--main01-color);
+    transition: all .2s ease;
+}
